@@ -1,5 +1,9 @@
 
 # SETTING
+## ROS2 Users
+The package `gazebo_rl_test_ros2` provides a minimal ROS2 Humble
+implementation. Build it using `colcon build` inside your ROS2
+workspace.
 ## Model
 ```
   git clone https://github.com/CzJaewan/servingbot.git

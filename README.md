@@ -14,12 +14,19 @@
 
 ---
 
-- python 2.7
-- ROS Kinetic & Melodic
+- python 3 (>= 3.8)
+- ROS2 Humble
 - mpi4py
 - Stage
-- Gazebo
+- Gazebo 11
 - PyTorch
+
+# ROS2 and Gazebo 11 Support
+
+The repository now includes a minimal ROS2 Humble port. The new package
+`navigation_ros2` contains a `lookahead_point` node built with
+`ament_cmake`. Build the workspace using `colcon build` and launch
+Gazebo 11 as usual.
 
 # Mobile-robot Collision Avoidance Learning
 
